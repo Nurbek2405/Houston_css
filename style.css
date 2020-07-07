@@ -1,0 +1,45 @@
+body {
+text-align: left;
+max-width: 70%;
+margin: 0 auto;
+}
+
+h1, h2, h3 {
+font-family:  sans-serif;
+margin-top: 1.5em;
+}
+
+h1 {
+font-size:  32px;
+}
+
+ table {
+ margin: left;
+ text-align: left;
+border: 1px solid black
+ }
+
+
+ TD, TH {
+border: 1px solid black; /* Параметры рамки */
+   }
+
+.centertext {
+   text-align: center;
+}
+.rightimg {
+   margin-top: 1em;
+   float: right; /* Выравнивание по правому краю  */ 
+   margin: 0 0 10px 10px; /* Отступы всех вокруг картинкок */
+}
+
+figcaption {
+   font-style: italic;
+}
+
+.rightim2 {   /* Для самого первого картинки, чтобы не мешала следующей */
+   margin-top: 1em;
+   float: right; /* Выравнивание по правому краю  */ 
+   margin: 0 100px 10px 100px; /* Отступы вокруг картинки */
+}
+
